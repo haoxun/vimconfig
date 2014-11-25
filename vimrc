@@ -37,34 +37,5 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-
-" Global plugins configuration.
-"
-" `YCM configuration`.
-let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
-" `NERDTree`
-let suffixes = ['.pdf', '.log', '.out', '~', '.o', '.3', '.6', '.aux', '.toc', '.bbl', '.blg', '.log', '.pyc']
-let NERDTreeIgnore = ['__pycache__']
-for suffix in suffixes
-	let NERDTreeIgnore += [ escape(suffix, '.~') . '$' ]
-endfor
-" `vim-colors-solarized`.
-syntax enable
-if has("gui_macvim")
-	" full screen
-	set lines=999 columns=999
-else
-	let g:solarized_termcolors=256
-endif
-set background=dark
-colorscheme solarized
-
-
-set ignorecase
-set clipboard=unnamed
-" Encoding. 
-set fileencoding=utf-8
-set encoding=utf-8
-set guifontwide=STSong:h8
-" Length of tab.
-set tabstop=2
+source ~/.vim/misc/plugin_config.vim
+source ~/.vim/misc/other_config.vim

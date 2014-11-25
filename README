@@ -1,4 +1,6 @@
 # Usage
 
 1. Install [Vundle](https://github.com/gmarik/Vundle.vim).
-2. link .vimrc to ~/.vimrc.
+1. Link vimrc to ~/.vimrc.
+1. Link misc/ to ~/.vim/.
+1. Install plugins by `PluginInstall`. Be careful, plugin `ycm` needs some manually configuration steps.
