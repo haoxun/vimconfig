@@ -1,0 +1,4 @@
+# Usage
+
+1. Install [Vundle](https://github.com/gmarik/Vundle.vim).
+2. link .vimrc to ~/.vimrc.
