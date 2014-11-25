@@ -18,3 +18,7 @@ else
 endif
 set background=dark
 colorscheme solarized
+
+" `auto-pairs`
+" Ignore parenthesis.
+let g:AutoPairs={'[':']', '{':'}',"'":"'",'"':'"', '`':'`'}
