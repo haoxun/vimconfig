@@ -1,5 +1,5 @@
 " `YCM configuration`.
-let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/misc/.ycm_extra_conf.py'
 
 " `NERDTree`
 let suffixes = ['.pdf', '.log', '.out', '~', '.o', '.3', '.6', '.aux', '.toc', '.bbl', '.blg', '.log', '.pyc']
