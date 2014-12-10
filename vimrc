@@ -17,6 +17,7 @@ Plugin 'altercation/vim-colors-solarized'  " colorscheme.
 Plugin 'jiangmiao/auto-pairs'  " Insert or delete brackets, parens, quotes in pair.
 Plugin 'nvie/vim-flake8'  " Press <F7> to run flake8 on it.
 Plugin 'nathanaelkane/vim-indent-guides'  " intending bar.
+Plugin 'wting/rust.vim'
 Plugin 'scrooloose/nerdtree'  " slide of files.
 Plugin 'scrooloose/nerdcommenter'  " help programmer to comment stuff.
 Plugin 'tpope/vim-surround'  " facilitate surrounding.
