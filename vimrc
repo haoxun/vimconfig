@@ -14,7 +14,8 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins added by user.
 Plugin 'altercation/vim-colors-solarized'  " colorscheme.
-Plugin 'jiangmiao/auto-pairs'  " Insert or delete brackets, parens, quotes in pair.
+" Plugin 'jiangmiao/auto-pairs'  " Insert or delete brackets, parens, quotes in pair.
+Plugin 'junegunn/vim-easy-align' " A simple, easy-to-use Vim alignment plugin.
 Plugin 'nvie/vim-flake8'  " Press <F7> to run flake8 on it.
 Plugin 'nathanaelkane/vim-indent-guides'  " intending bar.
 Plugin 'wting/rust.vim'
