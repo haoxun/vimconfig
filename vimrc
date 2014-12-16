@@ -17,7 +17,6 @@ Plugin 'altercation/vim-colors-solarized'  " colorscheme.
 " Plugin 'jiangmiao/auto-pairs'  " Insert or delete brackets, parens, quotes in pair.
 Plugin 'junegunn/vim-easy-align' " A simple, easy-to-use Vim alignment plugin.
 Plugin 'nvie/vim-flake8'  " Press <F7> to run flake8 on it.
-Plugin 'nathanaelkane/vim-indent-guides'  " intending bar.
 Plugin 'wting/rust.vim'
 Plugin 'scrooloose/nerdtree'  " slide of files.
 Plugin 'scrooloose/nerdcommenter'  " help programmer to comment stuff.
@@ -40,5 +39,6 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+filetype indent on 
 source ~/.vim/misc/plugin_config.vim
 source ~/.vim/misc/other_config.vim

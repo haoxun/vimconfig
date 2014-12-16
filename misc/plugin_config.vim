@@ -1,7 +1,7 @@
 " `YCM configuration`.
 let g:ycm_global_ycm_extra_conf = '~/.vim/misc/.ycm_extra_conf.py'
 set completeopt-=preview
-let g:let g:ycm_auto_trigger=0
+let g:ycm_auto_trigger=0
 let g:ycm_enable_diagnostic_signs=0
 let g:ycm_enable_diagnostic_highlighting=0
 let g:ycm_key_invoke_completion='<C-B>'
