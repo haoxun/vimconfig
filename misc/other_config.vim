@@ -10,3 +10,7 @@ set textwidth=79
 
 " http://stackoverflow.com/questions/10727392/vim-not-allowing-backspace 
 set backspace=2
+
+set backupdir=~/Temp/VIMBAK/.backup
+
+filetype indent on 
