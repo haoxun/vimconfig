@@ -13,16 +13,16 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Plugins added by user.
-Plugin 'altercation/vim-colors-solarized'  " colorscheme.
-" Plugin 'jiangmiao/auto-pairs'  " Insert or delete brackets, parens, quotes in pair.
-Plugin 'junegunn/vim-easy-align' " A simple, easy-to-use Vim alignment plugin.
-Plugin 'nvie/vim-flake8'  " Press <F7> to run flake8 on it.
+Plugin 'altercation/vim-colors-solarized' " colorscheme.
+Plugin 'junegunn/vim-easy-align'          " A simple, easy-to-use Vim alignment plugin.
+Plugin 'nvie/vim-flake8'                  " Press <F7> to run flake8 on it.
 Plugin 'wting/rust.vim'
-Plugin 'scrooloose/nerdtree'  " slide of files.
-Plugin 'scrooloose/nerdcommenter'  " help programmer to comment stuff.
-Plugin 'tpope/vim-surround'  " facilitate surrounding.
-Plugin 'thinca/vim-quickrun'  " run current code file.
-Plugin 'Valloric/YouCompleteMe'  " powerful auto-completion.
+Plugin 'scrooloose/nerdtree'              " slide of files.
+Plugin 'scrooloose/nerdcommenter'         " help programmer to comment stuff.
+Plugin 'tpope/vim-surround'               " facilitate surrounding.
+Plugin 'thinca/vim-quickrun'              " run current code file.
+Plugin 'Valloric/YouCompleteMe'           " powerful auto-completion.
+Plugin 'klen/python-mode'                 " Vim python-mode.
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

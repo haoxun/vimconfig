@@ -13,4 +13,6 @@ set backspace=2
 
 set backupdir=~/Temp/VIMBAK/.backup
 
+set tags+=tags;~
+
 filetype indent on 
