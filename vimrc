@@ -21,7 +21,7 @@ Plugin 'scrooloose/nerdtree'              " slide of files.
 Plugin 'scrooloose/nerdcommenter'         " help programmer to comment stuff.
 Plugin 'tpope/vim-surround'               " facilitate surrounding.
 Plugin 'thinca/vim-quickrun'              " run current code file.
-Plugin 'Valloric/YouCompleteMe'           " powerful auto-completion.
+" Plugin 'Valloric/YouCompleteMe'           " powerful auto-completion.
 Plugin 'klen/python-mode'                 " Vim python-mode.
 
 " All of your Plugins must be added before the following line

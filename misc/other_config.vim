@@ -1,4 +1,6 @@
+" When 'ignorecase' and 'smartcase' are both on, if a pattern contains an uppercase letter, it is case sensitive, otherwise, it is not.
 set ignorecase
+set smartcase
 set clipboard=unnamed
 " Encoding. 
 set fileencoding=utf-8
